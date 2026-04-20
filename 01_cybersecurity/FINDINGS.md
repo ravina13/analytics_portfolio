@@ -46,11 +46,12 @@ who understands the business context but not the code.
 - Created binary target variable `high_exploitability` (1 = at or above median exploitability)
 
 ### Key findings
-- Median exploitability score used as threshold: **TBD**
-- Class balance — high exploitability (1): **TBD** | low (0): **TBD**
+- Median exploitability score used as threshold: 2.5
+- Class balance — high exploitability (1): 2,031 | low (0): 1,915 (51/49 — well balanced)
 
 ### So what?
-> TBD after Cell 9 output
+Near-perfect class balance means our classifier won't be biased toward
+predicting one class. No resampling techniques needed — keeps the model clean.
 
 ---
 
