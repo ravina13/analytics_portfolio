@@ -1,0 +1,23 @@
+# Virtual environment
+.venv/
+
+# Data folders (raw data stays local)
+**/data/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Environment variables (API keys etc.)
+.env
+
+# macOS noise
+.DS_Store
+
+# Outputs you don't want committed (optional — remove if you want charts versioned)
+# **/outputs/
